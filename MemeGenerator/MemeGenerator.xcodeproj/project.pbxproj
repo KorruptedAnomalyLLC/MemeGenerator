@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C19C06F229732DF00FCE9E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C19C06E229732DF00FCE9E4 /* AppDelegate.m */; };
+		0C19C075229732DF00FCE9E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C19C073229732DF00FCE9E4 /* Main.storyboard */; };
+		0C19C077229732E000FCE9E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C19C076229732E000FCE9E4 /* Assets.xcassets */; };
+		0C19C07A229732E000FCE9E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C19C078229732E000FCE9E4 /* LaunchScreen.storyboard */; };
+		0C19C07D229732E000FCE9E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C19C07C229732E000FCE9E4 /* main.m */; };
+		0C19C085229732FD00FCE9E4 /* AJWMeme.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C19C084229732FD00FCE9E4 /* AJWMeme.m */; };
+		0C19C08C2297338700FCE9E4 /* AJWMemeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C19C08B2297338700FCE9E4 /* AJWMemeController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C19C06A229732DF00FCE9E4 /* MemeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C19C06D229732DF00FCE9E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C19C06E229732DF00FCE9E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C19C074229732DF00FCE9E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C19C076229732E000FCE9E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C19C079229732E000FCE9E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C19C07B229732E000FCE9E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C19C07C229732E000FCE9E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C19C083229732FD00FCE9E4 /* AJWMeme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJWMeme.h; sourceTree = "<group>"; };
+		0C19C084229732FD00FCE9E4 /* AJWMeme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJWMeme.m; sourceTree = "<group>"; };
+		0C19C08A2297338700FCE9E4 /* AJWMemeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJWMemeController.h; sourceTree = "<group>"; };
+		0C19C08B2297338700FCE9E4 /* AJWMemeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJWMemeController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C19C067229732DF00FCE9E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C19C061229732DF00FCE9E4 = {
+			isa = PBXGroup;
+			children = (
+				0C19C06C229732DF00FCE9E4 /* MemeGenerator */,
+				0C19C06B229732DF00FCE9E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C19C06B229732DF00FCE9E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C19C06A229732DF00FCE9E4 /* MemeGenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C19C06C229732DF00FCE9E4 /* MemeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				0C19C0872297333A00FCE9E4 /* Model */,
+				0C19C0882297335A00FCE9E4 /* Resources */,
+				0C19C0892297336A00FCE9E4 /* Storyboard */,
+				0C19C08D2297339100FCE9E4 /* ModelController */,
+			);
+			path = MemeGenerator;
+			sourceTree = "<group>";
+		};
+		0C19C0872297333A00FCE9E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C19C083229732FD00FCE9E4 /* AJWMeme.h */,
+				0C19C084229732FD00FCE9E4 /* AJWMeme.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C19C0882297335A00FCE9E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C19C06E229732DF00FCE9E4 /* AppDelegate.m */,
+				0C19C06D229732DF00FCE9E4 /* AppDelegate.h */,
+				0C19C076229732E000FCE9E4 /* Assets.xcassets */,
+				0C19C07B229732E000FCE9E4 /* Info.plist */,
+				0C19C07C229732E000FCE9E4 /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0C19C0892297336A00FCE9E4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0C19C073229732DF00FCE9E4 /* Main.storyboard */,
+				0C19C078229732E000FCE9E4 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0C19C08D2297339100FCE9E4 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				0C19C08A2297338700FCE9E4 /* AJWMemeController.h */,
+				0C19C08B2297338700FCE9E4 /* AJWMemeController.m */,
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C19C069229732DF00FCE9E4 /* MemeGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C19C080229732E000FCE9E4 /* Build configuration list for PBXNativeTarget "MemeGenerator" */;
+			buildPhases = (
+				0C19C066229732DF00FCE9E4 /* Sources */,
+				0C19C067229732DF00FCE9E4 /* Frameworks */,
+				0C19C068229732DF00FCE9E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemeGenerator;
+			productName = MemeGenerator;
+			productReference = 0C19C06A229732DF00FCE9E4 /* MemeGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C19C062229732DF00FCE9E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AJW;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Austin West";
+				TargetAttributes = {
+					0C19C069229732DF00FCE9E4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0C19C065229732DF00FCE9E4 /* Build configuration list for PBXProject "MemeGenerator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C19C061229732DF00FCE9E4;
+			productRefGroup = 0C19C06B229732DF00FCE9E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C19C069229732DF00FCE9E4 /* MemeGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C19C068229732DF00FCE9E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C19C07A229732E000FCE9E4 /* LaunchScreen.storyboard in Resources */,
+				0C19C077229732E000FCE9E4 /* Assets.xcassets in Resources */,
+				0C19C075229732DF00FCE9E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C19C066229732DF00FCE9E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C19C08C2297338700FCE9E4 /* AJWMemeController.m in Sources */,
+				0C19C07D229732E000FCE9E4 /* main.m in Sources */,
+				0C19C085229732FD00FCE9E4 /* AJWMeme.m in Sources */,
+				0C19C06F229732DF00FCE9E4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0C19C073229732DF00FCE9E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C19C074229732DF00FCE9E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C19C078229732E000FCE9E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C19C079229732E000FCE9E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C19C07E229732E000FCE9E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C19C07F229732E000FCE9E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C19C081229732E000FCE9E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/MemeGenerator/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AustinWest.MemeGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C19C082229732E000FCE9E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/MemeGenerator/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AustinWest.MemeGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C19C065229732DF00FCE9E4 /* Build configuration list for PBXProject "MemeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C19C07E229732E000FCE9E4 /* Debug */,
+				0C19C07F229732E000FCE9E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C19C080229732E000FCE9E4 /* Build configuration list for PBXNativeTarget "MemeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C19C081229732E000FCE9E4 /* Debug */,
+				0C19C082229732E000FCE9E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C19C062229732DF00FCE9E4 /* Project object */;
+}
